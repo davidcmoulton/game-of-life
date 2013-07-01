@@ -10,7 +10,9 @@
     <properties>
         <build.number>SNAPSHOT</build.number>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <easyb.version>1.5</easyb.version>
+        <!-- <easyb.version>1.5</easyb.version> -->
+        <!-- changed to be consistent with reference below -->
+        <easyb.version>1.4</easyb.version>
         <cobertura.version>2.5.1</cobertura.version>
         <!-- A workaround for a bug in PMD -->
         <targetJdk>1.6</targetJdk>
@@ -115,8 +117,8 @@
                 <artifactId>maven-easyb-plugin</artifactId>
                 <!-- Changed version from 1.4 to 1.5 to be internally
                 consistent with <easyb.version> stated above. -->
-                <!-- <version>1.4</version> -->
-                <version>1.5</version>
+                <version>1.4</version>
+                <!-- <version>1.5</version> -->
                 <executions>
                     <execution>
                         <goals>
