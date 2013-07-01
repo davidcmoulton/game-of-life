@@ -13,7 +13,9 @@
         <!-- <easyb.version>1.5</easyb.version> -->
         <!-- changed to be consistent with reference below -->
         <easyb.version>1.4</easyb.version>
-        <cobertura.version>2.5.1</cobertura.version>
+        <!-- Changed to reflect version stated on Jenkins plugin page -->
+        <!-- <cobertura.version>2.5.1</cobertura.version> -->
+        <cobertura.version>1.9.1</cobertura.version>
         <!-- A workaround for a bug in PMD -->
         <!-- Changed 1.6 to 1.7 -->
         <targetJdk>1.7</targetJdk>
